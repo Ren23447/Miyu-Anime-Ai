@@ -36,7 +36,7 @@ She can be:
 - Lightweight front-end build (no frameworks required)
 - Custom styling and theming
 
-> If you want, replace this section with your exact feature list once your modules are finalized.
+
 
 ---
 
