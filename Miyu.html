@@ -7,7 +7,7 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        <title>Shio AI</title>
+        <title>望結 (Miyu)</title>
         <style>
             body {
                 margin: 0;
@@ -234,7 +234,7 @@
                     color: rgba(255, 255, 255, 0.6);
                 "
             >
-                LOADING SHIO
+                LOADING 望結 (Miyu)
             </p>
         </div>
 
@@ -243,7 +243,7 @@
                 <div class="glass-panel shio-tag">
                     <div class="status-dot"></div>
                     <span style="font-weight: 600; letter-spacing: 1px"
-                        >SHIO AI</span
+                        >望結 (Miyu)</span
                     >
                 </div>
             </header>
@@ -276,7 +276,7 @@
             } from "@pixiv/three-vrm";
 
             const MODEL_URL =
-                "https://raw.githubusercontent.com/Ren23449-ux/Ai-anime-agent-vrm/main/6293260033275226542.vrm";
+                "https://raw.githubusercontent.com/Ren23447/Miyu-Anime-Ai/main/5834554318258545116.vrm";
 
             // --- POSE LIBRARY ---
             let poseLibrary = {};
@@ -284,7 +284,7 @@
             async function loadPoseLibrary() {
                 try {
                     const response = await fetch(
-                        "https://raw.githubusercontent.com/Ren23449-ux/Shio-anime-waifu/refs/heads/main/poses-emotions.js",
+                        "https://github.com/Ren23447/Miyu-Anime-Ai/raw/refs/heads/main/poses-emotions.js",
                     );
                     if (!response.ok) throw new Error("Failed to load poses");
 
@@ -319,7 +319,7 @@
             async function loadResponseLibrary() {
                 try {
                     const response = await fetch(
-                        "https://raw.githubusercontent.com/Ren23449-ux/Shio-anime-waifu/refs/heads/main/Responcelibrary.js"
+                        "https://raw.githubusercontent.com/Ren23447/Miyu-Anime-Ai/main/Responcelibrary.js"
                     );
                     if (!response.ok) throw new Error("Failed to load response library");
 
@@ -500,9 +500,9 @@
                     {
                         regex: /name/i,
                         responses: [
-                            "My name is Shio.",
-                            "I'm Shio, your AI companion.",
-                            "You can call me Shio!",
+                            "My name is Miyu.",
+                            "I'm Miyu, your AI companion.",
+                            "You can call me Miyu!",
                         ],
                         animation: "neutral",
                     },
@@ -766,7 +766,7 @@
                         500,
                     );
 
-                    addMessage("Shio", "Hi! I'm Shio. I can see you now!");
+                    addMessage("Miyu", "Hi! I'm Miyu. I can see you now!");
                 });
             }
 
